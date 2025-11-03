@@ -25,7 +25,10 @@ The framework quantifies four complementary axes:
 3. **Linguistic Clarity** – readability, explicitness, and syntactic simplicity.  
 4. **Coverage/Informativeness** – content density and non-redundancy.
 
-## Datasets
+
+---
+
+## 🧪 Datasets
 
 The datasets contain automatically generated **gCoT traces** (Chain-of-Thought) for the **GSM8K** benchmark, produced by five reasoning-oriented models:
 
@@ -46,6 +49,8 @@ Each `.jsonl` record includes:
   "answer": "...",
   "model": "DeepSeek-R1-Distill-Qwen-7B"
 }
+
+
 All datasets are distributed under the CC-BY 4.0 license for research and educational purposes.
 
 Metrics Implemented
