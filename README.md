@@ -104,3 +104,9 @@ If you use this repository or the datasets in your work, please cite:
   publisher = {MDPI},
   doi     = {10.3390/xxxxx}
 }
+```
+
+## License
+
+All code and datasets are released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
+You are free to use, modify, and redistribute the materials provided that appropriate credit is given.
