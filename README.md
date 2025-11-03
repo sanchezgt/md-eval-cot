@@ -91,7 +91,7 @@ A complementary human study was conducted using **Label Studio**, with four expe
 
 ---
 
-## 📖 Citation
+## Citation
 
 If you use this repository or the datasets in your work, please cite:
 
