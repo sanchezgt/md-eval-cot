@@ -47,3 +47,71 @@ Each `.jsonl` record includes:
   "model": "DeepSeek-R1-Distill-Qwen-7B"
 }
 All datasets are distributed under the CC-BY 4.0 license for research and educational purposes.
+
+Metrics Implemented
+Coherence
+
+Coherence-Momentum (probabilistic degradation test)
+
+Cross-Encoder coherence (MPNet)
+
+Embedding-based local cohesion
+
+Perplexity (GPT-2 baseline)
+
+Logical–Factual Consistency
+
+NLI-based contradiction detection (DeBERTa-v3-MNLI-FEVER)
+
+AlignScore (support / implication)
+
+FactCC (factual consistency)
+
+Clarity
+
+Flesch Reading Ease (RD)
+
+Step Explicitness (SE)
+
+Definition Coverage (DC)
+
+Syntactic Simplicity (SSₗᵢₜₑ)
+
+Aggregate Clarity Index (CLX)
+
+Logical Verification (Z3)
+
+Implements:
+
+ACS – Aggregate Consistency Score
+
+FAS₀ – Final Answer Soundness
+
+JSS – Justification Set Size
+
+RCR – Redundant Constraint Ratio
+
+Human Evaluation
+
+A complementary human study was conducted using Label Studio, with four expert raters evaluating 400 items (20 problems × 5 models) along four dimensions:
+coherence, cohesion, clarity, informativeness.
+
+
+
+Citation
+
+If you use this repository or the datasets in your work, please cite:
+
+@article{BecerraSanchezBranch2025_gCoT_Eval,
+  title   = {Multi-Dimensional Evaluation of Auto-Generated Chain-of-Thought Traces in Reasoning Models},
+  author  = {Luis F. Becerra and Germán Sánchez-Torres and John W. Branch-Bedoya},
+  year    = {2025},
+  journal = {AI},
+  publisher = {MDPI},
+  doi     = {10.3390/xxxxx}
+}
+
+License
+
+All code and datasets are released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+You are free to use, modify, and redistribute the materials provided that appropriate credit is given.
