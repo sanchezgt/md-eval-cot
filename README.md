@@ -49,6 +49,7 @@ Each `.jsonl` record includes:
   "answer": "...",
   "model": "DeepSeek-R1-Distill-Qwen-7B"
 }
+```json
 
 
 All datasets are distributed under the CC-BY 4.0 license for research and educational purposes.
