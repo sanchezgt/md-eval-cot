@@ -1,0 +1,6 @@
+model,alias
+GSM8K_deepseek-r1-distill-llama-8b@q8_0,DS_LL
+GSM8K_deepseek-r1-distill-qwen-7b,DS_QW
+GSM8K_gpt-oss-120b,GPT_120
+GSM8K_gpt-oss-20b,GPT_20
+GSM8K_qwen3-4b-thinking-2507,QWEN3_THK
